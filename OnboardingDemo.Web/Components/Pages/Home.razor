@@ -1,0 +1,22 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>Welcome to the team!</h1>
+
+<p>Your .NET 10 development environment is up and running.</p>
+
+<h2>Explore the application</h2>
+<ul>
+    <li><a href="counter">Counter</a>: try an interactive Blazor component.</li>
+    <li><a href="weather">Weather</a>: load a five-day forecast from the API.</li>
+    <li>Open the Aspire dashboard to inspect resources, logs, metrics, and traces.</li>
+</ul>
+
+<h2>What is running?</h2>
+<p>
+    Aspire starts this Blazor frontend, an ASP.NET Core API, and a Redis container.
+    The frontend discovers the API by name. The API caches its forecast in Redis
+    for five seconds. The forecast is randomly generated, so no external API key
+    or cloud account is needed.
+</p>
